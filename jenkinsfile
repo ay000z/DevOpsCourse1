@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    echo "Test sans commandes shell-ayooz was here)"
+                    echo "Test sans commandes shell-ayooz was here-tesssssssssssssssst)"
                     echo "Si ça marche, le problème vient des shells"
                 }
             }
