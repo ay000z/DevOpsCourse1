@@ -6,7 +6,7 @@ pipeline {
                 script {
                     echo "Test sans commandes shell"
                     echo "Si ça marche, le problème vient des shells"
-                    echo "test github webhook"
+                    echo "test github webhook-ay00z was here"
                     
                 }
             }
