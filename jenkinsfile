@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                script {
+                    echo "Test sans commandes shell-ayooz was here (webhook)"
+                    echo "Si ça marche, le problème vient des shells"
+                }
+            }
+        }
+    }
+}
